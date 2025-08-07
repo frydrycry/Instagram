@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .profile-box {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 30px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-box">
+    <h2>Hoşgeldin, {{ user }}!</h2>
+    <p>Bu Instagram profili sayfasıdır.</p>
+  </div>
+</body>
+</html>
